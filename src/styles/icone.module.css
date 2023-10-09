@@ -1,0 +1,47 @@
+.iconescontainer {
+ 
+    display: flex;
+    flex-direction: row;
+   
+      width: 100%;
+justify-content: flex-end;
+
+
+}
+.iconescontainer .icones {
+ 
+  color: red;background-color: rgb(243, 248, 248);
+border-radius: 20%;
+
+}
+  .icones {
+
+      width: 35px;
+      
+    }
+
+    .icones:hover {
+        position: relative;
+    top: -2px;
+          
+        }
+        @media (max-width: 600px) {  
+            .iconescontainer {
+align-items: flex-end;
+                flex-direction: column;
+     
+         position: absolute;
+            top: 60px;
+            right: 5px;
+            z-index: 500;
+            }
+
+
+
+        }
+
+        .dark {
+
+          color: black;
+        
+        }

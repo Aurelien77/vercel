@@ -1,0 +1,8 @@
+@keyframes shine { 
+    0% {
+        transform:translateX(-100%) translateY(-100%) rotate(30deg);
+    }
+    80% {transform:translateX(-100%) translateY(-100%) rotate(30deg);}
+      100% {transform:translateX(100%) translateY(100%) rotate(30deg);}
+  }
+  

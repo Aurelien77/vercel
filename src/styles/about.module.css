@@ -1,0 +1,212 @@
+.realite{
+
+
+  display: flex;
+  flex-direction: column;
+}
+.text{
+  display: flex;
+flex-direction: row;
+  float: left; 
+  gap: 2%;
+ padding: 1%;
+ 
+}
+
+.textplein {
+  border: 1px solid gold;
+  border-radius: 3.5%;
+  background-color: rgba(121, 219, 243, 0.5); /* Utilisation de rgba pour définir l'opacité */
+}
+.text2 {
+  display: flex;
+  padding: 1%;
+  gap: 2%;
+
+
+ 
+
+}
+
+.container {
+
+  z-index: 4;
+width: 100%;
+
+}
+
+
+
+.background {
+ 
+
+  background-image: url('../../public/images/svgs/moon-filled-to-sunny-filled-loop-transition.svg');
+  background-repeat: no-repeat;
+  background-size: 39%;
+  background-position: 50% 0%;
+
+  position: fixed; 
+  top:12.1vw;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+}
+
+
+
+
+.espace {
+  height: 22vw;
+  background-color: transparent;
+  
+}
+
+
+.backgroundcontainer {
+display: flex;
+flex-direction: column;
+
+
+}
+
+
+.imageContainer {
+
+  display: flex;
+
+
+   
+  
+  
+  }
+  
+
+  
+  .AnimatedText {
+    font-size: 3rem;
+     width: 100%;
+  }
+
+  .AnimatedText2 {
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+  
+
+  .image {
+border: 2px solid black;
+border-radius: 10%;
+float: left; 
+    height: 15vw;
+    width: 15vw;
+  }
+  
+
+  .increm {
+
+border: 2px solid rgb(169, 169, 168);
+padding: 10px;
+
+background-color: rgb(186, 189, 189);
+    font-size: 1rem;
+  }
+
+  .increm1 {
+
+
+    padding: 10px;
+   color: red;
+   text-shadow: rgb(237, 229, 195) 5px 5px 10px;
+        font-size: 2rem;
+      }
+      .plus {
+       
+z-index: 100;
+     color: rgb(38, 39, 37);
+     font-size: 2rem;
+      }
+    
+
+  
+ 
+      @media (max-width: 600px) {
+
+
+.display {
+
+  display: none;
+}
+.AnimatedText {
+
+  margin-top: 8vw;
+text-align: center;
+
+}
+
+
+        .text{
+          display: block;
+          background-color: none;
+          text-align: start;
+         
+          gap: 2%;
+         
+        }
+      
+        .text2 {
+          display: block;
+      background-color: none;
+        
+          gap: 2%;
+      
+        
+         
+       
+        }
+        .image {
+         
+          display: flex;
+margin-left: 8vw;
+              height: 75vw;
+              width: 75vw;
+            }
+
+  
+        .background {
+          /* Autres styles pour votre arrière-plan ici */
+       
+          background-image: url('../../public/images/svgs/moon-filled-to-sunny-filled-loop-transition.svg');
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-position: 50% 50%;
+        
+     
+    
+        }
+
+
+        .espace {
+          height: 2vw;
+          background-color: transparent;
+         
+        }
+
+        
+  .increm {
+text-align: center;
+
+    padding: 0px;
+    
+   }
+    
+      .increm1 {
+    
+        text-align: center;
+        padding: 0px;
+    
+           
+          }
+        
+      }
+     

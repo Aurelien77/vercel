@@ -1,0 +1,79 @@
+
+
+
+.skills {
+display: flex;
+    height: 20vw;
+    width: 20vw;
+    align-items: center;
+   justify-items: center;  --circularLight: repeating-radial-gradient(rgba(249, 243, 243, 0.2)11vw, #acf18c );
+    background-image: var(--circularLight);
+margin-top: -7.2vw;
+border-radius: 50%;
+font-size: 2rem;
+margin-left: 40%;
+z-index: 1;
+  }
+
+
+
+.skillhaut {
+  background: none;
+  margin-top: 2rem;
+}
+  .motiondiv {
+
+font-size: 2rem;
+
+  }
+  .container {
+z-index: -0;
+
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .vous {
+display: flex;
+font-size: larger;
+font-weight: bold;
+ align-items: center;
+   padding: 5%;
+  }
+  @media (max-width: 600px) {
+
+    .skills {
+      display: flex;
+          height: 50vw;
+          width: 50vw;
+          align-items: center;
+         justify-items: center;  --circularLight: repeating-radial-gradient(rgba(249, 243, 243, 0.2)11vw, #acf18c );
+          background-image: var(--circularLight);
+   margin-top: 50px;
+    
+      font-size: 0.8rem;
+      margin-left: 24%;
+        }
+
+
+  }
+
+  @media (max-width: 1500px) and (orientation : landscape) {
+
+    .skills {
+      display: flex;
+          height: 25vw;
+          width: 25vw;
+          align-items: center;
+         justify-items: center;  --circularLight: repeating-radial-gradient(rgba(249, 243, 243, 0.2)11vw, #acf18c );
+          background-image: var(--circularLight);
+         
+   margin-top: 3vw;
+          margin-left: 36vw;
+      font-size: 1rem;
+   
+        }
+
+
+  }

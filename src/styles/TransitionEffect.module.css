@@ -1,0 +1,28 @@
+.container {
+    z-index: 30;
+position: fixed;
+top:0;
+bottom:0;
+background-color: black;
+right: 0;
+font-size: 8rem;
+}
+
+.container2 {
+    z-index: 20;
+    position: fixed;
+    top:0;
+    bottom:0;
+    background-color: rgb(211, 214, 216);
+    right: 0;
+    font-size: 8rem;
+    }
+.container3 {
+    z-index: 10;
+        position: fixed;
+        top:0;
+        bottom:0;
+        background-color: white;
+        right: 0;
+        font-size: 8rem;
+        }

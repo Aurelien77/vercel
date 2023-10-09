@@ -1,0 +1,18 @@
+
+.centred {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    font-weight: bold;
+margin-left: -16vw;
+  margin-top: -10vw;
+  }
+.positiontext{
+font-size: 2rem;
+text-decoration: none;
+margin-top: -9vw;
+}
+
+
+

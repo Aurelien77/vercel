@@ -1,0 +1,49 @@
+.navbarre {
+   width: 100%;
+  
+
+display: flex;
+font-size: 1.5rem;
+/*  align-content: center; */
+  gap: 5px; 
+  
+}
+.modedark {
+   width: 100%;
+   z-index: 5;
+   display: flex;
+   font-size: 1.5rem;
+/* justify-content: center; */
+     gap: 5px;
+
+  color: white;
+  text-decoration: none;
+  border-radius: 20%;
+
+}
+
+
+
+@media (max-width: 600px) {
+   .navbarre {
+width: 100%;
+justify-content: center;
+
+z-index: 900;
+font-size: 1.7rem;
+   }
+   .modedark {
+      width: 100%;
+      z-index: 5;
+      display: flex;
+      font-size: 1.5rem;
+   justify-content: center;
+        gap: 5px;
+   
+     color: white;
+     text-decoration: none;
+     border-radius: 20%;
+   
+   }
+
+}

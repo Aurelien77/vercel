@@ -1,0 +1,46 @@
+.progressBar {
+  position: fixed;
+  left: 6.3vw;
+  width: 3px;
+  height: 100%;
+  background-color: black;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: transform 0.3s ease-out, height 1s ease-out;
+  z-index: 2;
+}
+
+.progressBar.active {
+  transform: scaleY(1); /* La barre de progression s'étend lorsqu'un élément est actuellement visible */
+  height: 5px; /* Hauteur de la barre de progression active */
+  transition: transform 0.3s ease-out, height 0.3s ease-out;
+}
+
+.progressBarCircle {
+  width: 20px;
+  height: 20px;
+  background-color: red; /* Couleur de fond du rond */
+  border-radius: 50%; /* Pour créer un cercle */
+  position: fixed;
+  top: 0; /* Placez le rond en haut de la page */
+  left: 6.3vw; /* Assurez-vous que la position horizontale correspond à la barre */
+  transform-origin: center; /* Assurez-vous que la rotation se fait autour du centre */
+  transform: rotate(0); /* L'angle initial est de 0 degrés */
+  transition: transform 0.3s ease-out; /* Animation de la rotation */
+}
+ 
+
+  .myList {
+    scroll-snap-type: y mandatory;
+    /* Autres styles nécessaires */
+  }
+
+  .scrollLinks{
+
+
+    display: flex;
+    
+   border: 2px solid red;
+  }
+
+ 

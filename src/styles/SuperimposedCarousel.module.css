@@ -1,0 +1,29 @@
+.superimposedCarousel img{
+
+height: 10vw;
+
+
+}
+
+.content {
+display: flex;
+justify-items: center;
+    width: 20vw;
+    margin: 0.5vw;
+    
+}
+.active {
+
+
+
+margin: 0vw;
+}
+.image {
+    padding: 6%;
+
+   
+}
+.carouselItem {
+
+   
+}

@@ -1,0 +1,410 @@
+.call  {
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+.image1 {
+width: 5vw;
+height: 5vw;
+
+}
+.description2 {
+ display: none;
+  
+  }
+  .caroussel2 {
+
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  text-align: center;
+  
+    }
+
+    .caroussel2dark {
+
+      margin: 0px;
+      padding: 0px;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+    text-align: center;
+    
+      }
+
+.carte {
+  position: absolute;
+  top: 0px;
+  width: 40vw;
+  height: 40vw;
+left: 30%;
+  background-image: url('../../public/images/carte.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+ 
+
+  position: fixed; 
+
+
+opacity: 0.6;
+}
+.carte2 {
+
+
+  position: absolute;
+                 
+                    width: 40vw;
+                    height: 60vw;
+                  
+                    background-image: url('../../public/images/carte.png');
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                   
+                    position: absolute;
+                    top: 55%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                   
+                
+                  
+                  opacity: 1;
+}
+.caroussel {
+margin: 0px;
+padding: 0px;
+background-color: white;
+display: flex;
+justify-content: center;
+box-shadow: 1px 2px 2px 1px rgba(9, 0, 0, 1);
+}
+
+
+
+  .text {
+
+    margin: 2%;
+  }
+.divclass {
+  
+font-size: 2rem;
+align-items: center;
+    display: flex;
+    flex-direction: row;
+
+  padding: 0.4%;
+}
+.spanclass{
+  box-shadow: 1px 2px 2px 1px rgba(9, 0, 0, 1);
+  font-weight: bold;
+font-size: 2rem;
+margin-top: -8px;
+border-radius: 5%;
+
+}
+.decalage {
+
+  width: 150px;
+
+}
+.textdeco {
+
+  text-decoration: none;
+}
+
+
+.image {
+margin-right: 1rem;
+
+
+  border-radius: 50%;
+
+}
+.main {
+display: flex;
+
+width: 100%;
+height: 100%;
+  justify-content: space-between;
+ align-items: center;
+background-color: rgb(218, 230, 241);
+
+}
+
+.mainmodedark {
+  display: flex;
+
+  width: 100%;
+  height: 100%;
+    justify-content: space-between;
+   align-items: center;
+  background-color: black;
+  
+  
+  
+  }
+.main img{
+
+  width: 30vw;
+  height: 70%;
+    
+  
+  }
+  .mainmodedark img{
+
+    width: 30vw;
+    height: 70%;
+      
+    
+    }
+
+.card{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgb(229, 222, 213);
+padding: 1%;
+height: 7vw;
+margin: 2%;
+
+box-shadow: 1px 2px 2px 1px rgba(9, 0, 0, 1);
+}
+
+.cardbouton{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(229, 222, 213);
+  padding: 1%;
+  height: 8vw;
+padding: 7%;
+border-radius: 50%;
+  box-shadow: 1px 2px 2px 1px rgba(9, 0, 0, 1);
+  position: relative;
+     
+
+font-size: 1.5rem;
+color: rgb(9, 9, 9);
+z-index: 10;
+border: 1px solid rgb(54, 52, 52);
+margin-top: 20px;
+border-radius: 50%;
+width: 100%;
+-webkit-text-stroke: 0.4px rgb(64, 16, 236);
+  
+  }
+
+    
+.bureau{
+width: 100%;
+font-size: 1rem;
+position: absolute;
+top: 58%;
+
+
+}
+.bureau span {
+
+  position: absolute;
+margin-top: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ouvert {
+color: green;
+font-size: 2rem;
+
+}
+.bureau .horaires {
+width: 100%;
+margin-top: 30px;
+
+text-align: center;
+}
+.ferme {
+  color: red;
+  font-size: 2rem;
+}
+
+.positiontext {
+position: absolute;
+top: 20%;
+left: 42%;
+
+}
+
+
+
+   
+      
+ 
+
+      
+
+
+
+      .logo {
+width: 100%;
+justify-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      @media (max-width: 600px) {
+
+   
+.description {
+
+  display: none;
+}
+
+.description2 {
+  display: flex;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+text-shadow: 1px 1px #003668;
+-webkit-text-stroke: 1px rgb(6, 6, 6);
+
+}
+        .imageindex{
+
+          margin-top: 20%;
+        }
+
+
+        .card span{
+        background-color: aliceblue;
+          font-size: 1rem;
+          }
+
+          .card {
+        width: 20vw;
+            font-size: 0.5rem;
+            background-color: aliceblue;
+            }
+            
+            .divclass {
+              font-size: 1rem;
+              display: flex;
+              flex-direction: column;
+              
+              }
+              .main {
+                display: flex;
+                flex-direction: column;
+                background-image: url('../../public/images/carte.png');
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                   
+                  
+                    position: fixed; 
+              }
+            
+              .main img{
+            
+                width: 80vw;
+              height: 70%;
+                  margin-top: 8vw;
+                
+                }
+
+                .mainmodedark {
+                  display: flex;
+                  flex-direction: column;
+                  background-image: url('../../public/images/carte.png');
+                      background-repeat: no-repeat;
+                      background-size: 100%;
+                     
+                    
+                      position: fixed; 
+                }
+              
+                .mainmodedark img{
+              
+                  width: 80vw;
+                height: 70%;
+                    margin-top: 8vw;
+                  
+                  }
+
+                .call {
+              display: none;
+margin-left: 10%;
+margin-right: 10%;
+                  top: 40%;
+              /*  position: relative; */
+                left: 0px;
+                  display: flex;
+                  transform-origin: center; 
+                  transform: rotate(0deg);
+   
+                }
+                .call img{
+                  display: none;
+                  width: 50%;
+              
+                }
+
+                .caroussel {
+                  display: none;
+                  position: absolute;
+                  border-left: 1px solid gold;
+border-right: 1px solid gold;
+
+
+                 
+              
+                  background-color: aliceblue;
+                  box-shadow: none;
+                  
+                  }
+
+                  .caroussel2  {
+                    position: absolute;
+                   flex-direction: column;
+                    background-color: aliceblue;
+text-align: center;
+  bottom:-55%;
+                   display: flex;
+                   width: 100%;
+                    min-height: 50vw;
+              flex-wrap: nowrap;
+                    box-shadow: none;
+                    padding-bottom: 45%;
+                    padding-top: 10%;
+                    }
+.images {
+  align-items: center;
+  z-index: 2000;
+
+  height: 100%;
+  width: 100%;
+}
+                 .etoile {
+
+                  height: 100vw;
+                  width: 100%;
+                 }
+
+                  .stylinglunette {
+                    display: flex;
+                   
+                  }
+
+                  .carte2 {
+                    display: none;
+                    
+                  }
+      }
